@@ -24,8 +24,8 @@ client_id = config['imgur_api']['Client_ID']
 client_secret = config['imgur_api']['Client_Secret']
 album_id = config['imgur_api']['Album_ID']
 API_Get_Image = config['other_api']['API_Get_Image']
-line_bot_api = LineBotApi(+HgsnCxz5mP6JxbZazkYk7vFlnaInz0QEHm4OmANlYCjsUyYSQ+M/bXK2aLnsfcIHmep0XGtM1kqV0MZgQn8xQ630AKplqvBw0yvHjWxxgp3zWt73IkQTV5SDnKdc+4xEp4i95g/Esp513D2asg5vAdB04t89/1O/w1cDnyilFU=)
-handler = WebhookHandler(11eba2ce1d8382ef63a372bcddd42ee7)
+line_bot_api = LineBotApi('+HgsnCxz5mP6JxbZazkYk7vFlnaInz0QEHm4OmANlYCjsUyYSQ+M/bXK2aLnsfcIHmep0XGtM1kqV0MZgQn8xQ630AKplqvBw0yvHjWxxgp3zWt73IkQTV5SDnKdc+4xEp4i95g/Esp513D2asg5vAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('11eba2ce1d8382ef63a372bcddd42ee7')
 
 @app.route("/callback", methods=['POST'])
 def callback():
